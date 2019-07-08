@@ -1,0 +1,24 @@
+.quote {
+    text-align: right;
+    margin: 1rem 0;
+blockquote {
+    font-size: 3rem;
+    line-height: 1em;
+}
+figcaption {
+    font: {
+        family: "Grand Hotel", serif;
+        size : 1.2rem;
+    }
+    margin-top: 1rem;
+    &:before {
+    content: '\2012 ';
+ }
+ }
+}
+blockquote {
+font-style: italic;
+&:before, &:after{
+content: '"';
+}
+}

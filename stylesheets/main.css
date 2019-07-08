@@ -1,0 +1,26 @@
+@charset "UTF-8";
+.quote {
+  text-align: right;
+  margin: 1rem 0;
+}
+.quote blockquote {
+  font-size: 3rem;
+  line-height: 1em;
+}
+.quote figcaption {
+  font-family: "Grand Hotel", serif;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+.quote figcaption:before {
+  content: "‒";
+}
+
+blockquote {
+  font-style: italic;
+}
+blockquote:before, blockquote:after {
+  content: '"';
+}
+
+/*# sourceMappingURL=main.css.map */
